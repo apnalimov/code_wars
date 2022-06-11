@@ -11,7 +11,7 @@ def no_space_str(string):
             final += string[i]
 
 
-    return string, spaces, final
+    return final
 
 
 print(no_space_str('Давай уже ложиться спать'))
