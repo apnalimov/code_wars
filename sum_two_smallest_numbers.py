@@ -1,6 +1,3 @@
-from typing import final
-
-
 def sum_two_smallest_numbers(numbers):
     numbers.sort()
     final = 0
@@ -8,8 +5,5 @@ def sum_two_smallest_numbers(numbers):
     final += numbers[1]
 
     return final
-
-
-
 
 print(sum_two_smallest_numbers([18, 8, 5, 12, 22]))
